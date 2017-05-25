@@ -1,0 +1,12 @@
+include DESCRIPTION.rst
+
+# Include the test suite (FIXME: does not work yet)
+# recursive-include tests *
+
+# If using Python 2.6 or less, then have to include package data, even though
+# it's already declared in setup.py
+include todo/*.py todo/*.css todo/*.js todo/*.html todo/todo_project/*.py todo/todo_project/*.html todo/todo_project/*.css todo/todo_project/*.js
+include todo/todo_python/*.py todo/todo_python/*.css todo/todo_python/*.html todo/todo_python/*.py todo/todo_python/*.js
+include todo/todo_python/static/*.py todo/todo_python/static/*.css todo/todo_python/static/*.html todo/todo_python/static/*.py todo/todo_python/static/*.js
+include todo/todo_python/templates/todo_python/*
+
